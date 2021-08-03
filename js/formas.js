@@ -97,3 +97,6 @@ canvas.addEventListener('mousemove', function(event) {
     ctx.fill(circle1);
     ctx.fill(circle2);
 });
+
+ctx.font = "15px Arial";
+ctx.fillText("Feliz", 10, 145);
